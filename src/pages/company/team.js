@@ -1,10 +1,18 @@
 import React from 'react'
 import Layout from '../../components/layout'
+import Img from '../../images/400_n.jpg'
+
+
 const Team = () => {
   return (
     <Layout>
       <div>
         <h1>Our Team</h1>
+        <img 
+        style={{
+          width:'200px'
+        }}
+        src={Img} alt="img" />
         <p>
           This is about us text... Lorem ipsum dolor sit amet consectetur
           adipisicing elit. Magnam, repellendus. Fugiat, eligendi. Repudiandae
